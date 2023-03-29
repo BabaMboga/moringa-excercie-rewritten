@@ -1,0 +1,78 @@
+/* This sets the default font and background color for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F2F2F2;
+  }
+  /* This styles the header and gives it a background color */
+  h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: 0;
+  }
+  /* This styles the button */
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  /* This styles the list of cars */
+  #car-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  #car-list li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  #car-list li:hover {
+    background-color: #F2F2F2;
+  }
+  /* This styles the form */
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  form input[type="text"],
+  form input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  /* This styles the car details */
+  #car-details {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  #car-details h2 {
+    margin-top: 0;
+  }
+  #car-details p {
+    margin-bottom: 20px;
+  }
